@@ -11,11 +11,7 @@ import java.util.function.DoubleSupplier;
  * @param <T> The type of motors for the drivebase
  * @author Alex Stedman The motors for the drivebase
  */
-public abstract class DrivebaseSubsystem<T extends DcMotorSimple> implements Subsystem {
-
-    protected Motor<T>[] motors;
-
-    /**
+h    /**
      * Override this to get the gyroscope heading.
      * Or pass it in to the constructor. Which ever works best for your drivebase implementation.
      */
